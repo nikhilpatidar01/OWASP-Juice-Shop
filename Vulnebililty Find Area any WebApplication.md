@@ -1,6 +1,6 @@
-GET और POST दोनों methods के वेब एप्लिकेशन में ज्यादातर इस्तेमाल होने वाले, vulnerable endpoints की पूरी लिस्ट नीचे दी जा रही है। हर एक endpoint ऐसा है जहां payload inject करके vulnerability चेक की जा सकती है।
+# GET और POST दोनों methods के वेब एप्लिकेशन में ज्यादातर इस्तेमाल होने वाले, vulnerable endpoints की पूरी लिस्ट नीचे दी जा रही है। हर एक endpoint ऐसा है जहां payload inject करके vulnerability चेक की जा सकती है।
 
-GET और POST method को समझने के लिए नीचे आसान भाषा और उदाहरण के साथ वर्णन किया गया है:
+## GET और POST method को समझने के लिए नीचे आसान भाषा और उदाहरण के साथ वर्णन किया गया है:
 
 ## GET Method क्या है?
 - GET HTTP request method है, जिसका उपयोग सर्वर से डेटा **मंगाने (retrieve)** के लिए किया जाता है।
@@ -48,7 +48,7 @@ GET और POST method को समझने के लिए नीचे आ�
 | बुकमार्किंग            | URL बुकमार्क की जा सकती है                  | बुकमार्क नहीं किया जा सकता                      |
 
 ---
-## GET Method Endpoints
+# GET Method Endpoints
 
 - Search bar input (search?q=payload)[1]
 - URL parameters (product?id=payload)
@@ -70,7 +70,7 @@ GET और POST method को समझने के लिए नीचे आ�
 - Language/locale settings (lang=payload)
 - Any endpoint with querystrings accepting user input
 
-## POST Method Endpoints
+# POST Method Endpoints
 
 - Login form (username=password)
 - Registration form (username, email, password, address)
