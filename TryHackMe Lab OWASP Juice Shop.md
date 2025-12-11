@@ -1,6 +1,6 @@
 # OWASP Juice Shop
 This room uses the Juice Shop vulnerable web application to learn how to identify and exploit common web application vulnerabilities.
-
+[PortSwigger Lab Solve](https://github.com/ricardojoserf/Portswigger-Labs/tree/main)
 ---
 ### Target IP http://10.49.154.245
 
